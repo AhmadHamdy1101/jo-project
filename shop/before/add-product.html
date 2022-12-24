@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Shop</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
+            <ul>
+                <a href="add-product.html">Add Product</a>
+                <a href="show-product.html">Show product</a>
+                <a href="add-department.html">Add Department</a>
+                <a href="show-department.html">show Department</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <h1>Add Product</h1>
+        <form action="" method="post" enctype="multipart/form-data" >
+            <div class="lable">
+                <label for="name">Product name</label>
+                <label for="price">price</label>
+                <label for="discount">discount</label>
+                <label for="department">department</label>
+
+                <label for="photo">photo</label>
+            </div>
+            <div class="inbuts  ">
+                <input type="text" name="name" id="name" required>
+                <input type="text" name="price" id="price"required>
+                <input type="text" name="discount" id="discount">
+                <select name="department" >
+                    <option value="1">laptop</option>
+                </select>
+                <input type="file" name="photo" id="photo" required>
+
+                <button type="submit"> Add </button>
+            </div>
+            
+        </form>
+    </div>
+    <footer>
+        &copy; copyright-UNI Inst.developed by yossef nabil ahmed
+    </footer>
+</body>
+</html>
